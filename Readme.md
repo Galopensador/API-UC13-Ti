@@ -35,19 +35,19 @@ Retorna a lista de Carros disponiveis
 ```json
 [
     {   
-        nome: "Ferrari",
-        sigla: "FER",
-        velocidadeMaxima: 340,
-        potencia: 800,
-        consumo: 5.5,
+        "nome": "Ferrari",
+        "sigla": "FER",
+        "velocidadeMaxima": 340,
+        "potencia": 800,
+        "consumo": 5.5
     },
 
     {
-        nome: "Bugatti Chiron",
-        sigla: "CHIRON",
-        velocidadeMaxima: 420,
-        potencia: 1500,
-        consumo: 12.0,
+        "nome": "Bugatti Chiron",
+        "sigla": "CHIRON",
+        "velocidadeMaxima": 420,
+        "potencia": 1500,
+        "consumo": 12.0,
     },
 ]
 ```
