@@ -1,0 +1,2 @@
+readme.so https://readme.so/pt/editor
+site para fazer o sumario do codigo e como usalo.

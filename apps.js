@@ -1,7 +1,15 @@
 import express from 'express';
 
+//importa as rotas
+import carroRoutes from './Routes/carroRoutes.js'
+
 const app = express();
-// define a porta do servidor
+
+app.use(express.json());
+
+app.use("/Carros",carroRoutes);
+
+
 app.listen(3000, () =>{
     console.log('Servidor rodando com sucesso na porta 3000')
 });
